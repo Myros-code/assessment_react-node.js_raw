@@ -1,0 +1,29 @@
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 80px;
+}
+
+.quantity-controls button {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.quantity-controls span {
+    min-width: 20px;
+    text-align: center;
+}
+
+.cart-items-item {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+}
